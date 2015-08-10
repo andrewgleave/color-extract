@@ -1,5 +1,5 @@
 # color-extract
-Extract the dominant color palette from an image.
+Extract the dominant color palette from an image and outputs it as a list of hex colors. Supports Gif, PNG and JPEG.
 
 Uses [quant](https://github.com/soniakeys/quant) to provide both median and mean quantizers.
 
