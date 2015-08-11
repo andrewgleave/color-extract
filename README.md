@@ -1,9 +1,11 @@
 # color-extract
-Extract the dominant color palette from an image and outputs it as a list of hex colors. Supports Gif, PNG and JPEG.
+Extracts the dominant color palettes from a set of images and outputs them as a list of hex colors. 
+
+Supports GIF, PNG and JPEG.
 
 Uses [quant](https://github.com/soniakeys/quant) to provide both median and mean quantizers.
 
-Default palette size is 16 colors and capped at 256.
+Default palette size is 16 and capped at 256 colors.
 Default quatization mode is median.
 
 ##Usage
